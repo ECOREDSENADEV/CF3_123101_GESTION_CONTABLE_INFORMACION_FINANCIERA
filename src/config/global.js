@@ -1,8 +1,8 @@
 export default {
   global: {
-    Name: 'Fundamentos de matemáticas financieras',
+    Name: 'Documentos contables y no contables',
     Description:
-      'En este componente formativo se abordan temas relacionados con la fundamentación y aplicación de las matemáticas financieras en el sector productivo, se analiza la clasificación de las tasas de interés, el valor del dinero en el tiempo, equivalencia de tasas, tablas de amortización y alternativas de inversión como lo son el Valor Presente Neto (VPN) y Tasa Interna de Retorno (TIR), así mismo, la Norma Internacional de Información Financiera (NIIF) 13 - Medición del Valor Razonable , teniendo en cuenta la importancia de su análisis y aplicación en el registro de los hechos económicos bajo los estándares internacionales.',
+      'En este componente se identifican y analizan los documentos contables, cuyo objetivo es soportar el registro de los hechos económicos de la empresa; por ello, la importancia de conocer su concepto, características y requisitos. Aunado a ello, se revisan los documentos no contables de tipo informativo, los cuales no se registran contablemente y, por ende, no afectan la contabilidad de la entidad.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
