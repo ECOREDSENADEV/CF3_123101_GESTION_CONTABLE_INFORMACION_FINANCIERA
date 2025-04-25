@@ -15,9 +15,9 @@
           img(src="@/assets/curso/tema2/2.svg", data-aos="zoom-in")
       .col-lg-9.order-1.mb-3.mb-lg-0
         .row.align-items-start
-          .col-lg-5.pe-0
+          .col-lg-5.pe-lg-0
             img(src="@/assets/curso/tema2/1.png").mx-auto
-          .col-lg-7.ps-0
+          .col-lg-7.ps-lg-0
             .bg-color-6.h-100.px-4.py-5(data-aos="fade-left")
               p.mb-0 Con el cierre de año y transcurrido varios periodos de tiempo, esta información permanece como inactiva, pero es imperativa su conservación, teniendo en cuenta que es utilizada como testimonio sobre registros de hechos pasados. En tal sentido, las empresas desarrollan medidas de conservación para asegurar la integridad de los documentos que reposan en el archivo.
     
@@ -75,10 +75,10 @@
           .col-lg-10
             div.bg-color-6.tarjeta.p-5
               .row.justify-content-center
-                .col-lg-4.mb-3.mb-lg-0
+                .col-lg-4.order-2.order-lg-1
                   figure
                     img(src="@/assets/curso/tema2/6.svg", data-aos="zoom-in")
-                .col-lg-8(data-aos="fade-left")
+                .col-lg-8(data-aos="fade-left").order-1.order-lg-2.mb-3.mb-lg-0
                   p Otra forma de organización es la temática, la cual consiste en establecer series y subseries documentales por temas (Jiménez, 2003). Por ejemplo:
                   ul.lista-ul--color
                     li.mb-3.d-flex
@@ -111,21 +111,21 @@
         .row.mb-5.justify-content-center
           .col-lg-9
             .row.justify-content-center.align-items-stretch.mb-3
-              .col-lg-4
+              .col-lg-4.mb-3.mb-lg-0
                 .bg-color-6.tarjeta.p-1(data-aos="fade-left").h-100
                   .row.align-items-center
                     .col-lg-auto
                       img(src="@/assets/curso/tema2/7.svg", style="max-width: 90px").mx-auto
                     .col-lg
                       h5.mb-2 Archivo de gestión
-              .col-lg-4
+              .col-lg-4.mb-3.mb-lg-0
                 .bg-color-6.tarjeta.p-1(data-aos="fade-left").h-100
                   .row.align-items-center
                     .col-lg-auto
                       img(src="@/assets/curso/tema2/8.svg", style="max-width: 90px").mx-auto
                     .col-lg
                       h5.mb-2 Archivo central
-              .col-lg-4
+              .col-lg-4.mb-3.mb-lg-0
                 .bg-color-6.tarjeta.p-1(data-aos="fade-left").h-100
                   .row.align-items-center
                     .col-lg-auto
@@ -173,27 +173,27 @@
                           p.mb-0 Actualmente, el procedimiento de conservación es la microfilmación, que presenta una columna de procedimientos, indicando los tiempos de custodia de los documentos.
         
         .row.mb-5
-          .col-lg-3.mb-3.mb-lg-0
+          .col-lg-3.order-2.order-lg-1
             figure
               img(src="@/assets/curso/tema2/12.png", data-aos="zoom-in")
-          .col-lg-9
+          .col-lg-9.order-1.order-lg-2.mb-3.mb-lg-0
             p(data-aos="fade-left") En las empresas comúnmente se utilizan códigos con ejemplos en números para establecer el orden jerárquico de la empresa:
             .row.justify-content-center.align-items-stretch.mb-3
-              .col-lg-4
+              .col-lg-4.mb-3.mb-lg-0
                 .bg-color-23.tarjeta.p-1(data-aos="fade-left").h-100
                   .row.align-items-center
                     .col-lg-auto
                       img(src="@/assets/curso/tema2/13.svg", style="max-width: 90px").mx-auto
                     .col-lg
                       h5.mb-2 Gerencia
-              .col-lg-4
+              .col-lg-4.mb-3.mb-lg-0
                 .bg-color-23.tarjeta.p-1(data-aos="fade-left").h-100
                   .row.align-items-center
                     .col-lg-auto
                       img(src="@/assets/curso/tema2/14.svg", style="max-width: 90px").mx-auto
                     .col-lg
                       h5.mb-2 Recursos humanos
-              .col-lg-4
+              .col-lg-4.mb-3.mb-lg-0
                 .bg-color-23.tarjeta.p-1(data-aos="fade-left").h-100
                   .row.align-items-center
                     .col-lg-auto
@@ -201,14 +201,14 @@
                     .col-lg
                       h5.mb-2 Contabilidad
             .row.justify-content-center.align-items-stretch.mb-3
-              .col-lg-4
+              .col-lg-4.mb-3.mb-lg-0
                 .bg-color-23.tarjeta.p-1(data-aos="fade-left").h-100
                   .row.align-items-center
                     .col-lg-auto
                       img(src="@/assets/curso/tema2/16.svg", style="max-width: 90px").mx-auto
                     .col-lg
                       h5.mb-2 Almacén
-              .col-lg-4
+              .col-lg-4.mb-3.mb-lg-0
                 .bg-color-23.tarjeta.p-1(data-aos="fade-left").h-100
                   .row.align-items-center
                     .col-lg-auto

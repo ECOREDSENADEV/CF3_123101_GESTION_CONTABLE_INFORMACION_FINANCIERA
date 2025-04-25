@@ -112,14 +112,14 @@
               img(src="@/assets/curso/tema1/4.png", data-aos="zoom-in")
           .col-lg-6
             .row.justify-content-center.align-items-stretch.mb-3
-              .col-lg-6
+              .col-lg-6.mb-3
                 .bg-color-12.p-1(data-aos="fade-left").h-100
                   .row.align-items-center
                     .col-lg-auto
                       img(src="@/assets/curso/tema1/5.svg", style="max-width: 90px").mx-auto
                     .col-lg
                       h5.mb-2 Cotización
-              .col-lg-6
+              .col-lg-6.mb-3
                 .bg-color-12.p-1(data-aos="fade-left").h-100
                   .row.align-items-center
                     .col-lg-auto
@@ -127,7 +127,7 @@
                     .col-lg
                       h5.mb-2 Pedido
             .row.align-items-stretch.mb-4
-              .col-lg-6
+              .col-lg-6.mb-3
                 .bg-color-12.p-1(data-aos="fade-left").h-100
                   .row.align-items-center
                     .col-lg-auto
@@ -145,21 +145,21 @@
     .row.mb-5.justify-content-center
       .col-lg-9
         .row.justify-content-center.align-items-stretch.mb-3
-          .col-lg-4
+          .col-lg-4.mb-3.mb-lg-0
             .bg-color-10.p-1(data-aos="fade-left").h-100
               .row.align-items-center
                 .col-lg-auto
                   img(src="@/assets/curso/tema1/8.svg", style="max-width: 90px").mx-auto
                 .col-lg
                   h5.mb-2 Letra de cambio
-          .col-lg-4
+          .col-lg-4.mb-3.mb-lg-0
             .bg-color-10.p-1(data-aos="fade-left").h-100
               .row.align-items-center
                 .col-lg-auto
                   img(src="@/assets/curso/tema1/9.svg", style="max-width: 90px").mx-auto
                 .col-lg
                   h5.mb-2 El cheque
-          .col-lg-4
+          .col-lg-4.mb-3.mb-lg-0
             .bg-color-10.p-1(data-aos="fade-left").h-100
               .row.align-items-center
                 .col-lg-auto
@@ -224,10 +224,10 @@
         p.mb-5(data-aos="fade-left") Según lo determina el Estatuto Tributario, los requerimientos exigidos para la factura son (Secretaría del Senado, 2020. Art. 617):
 
         .row.mb-5.justify-content-center
-          .col-lg-3.pe-0
+          .col-lg-3.pe-lg-0
             figure
               img(src="@/assets/curso/tema1/13.png", data-aos="zoom-in")
-          .col-lg-7.ps-0
+          .col-lg-7.ps-lg-0
             .bg-color-23.h-100.p-3
               ol.lista-ol--cuadro
                 li.bg-color-white.p-1
@@ -318,10 +318,10 @@
     p.mb-5(data-aos="fade-left") La factura equivalente o documentos equivalentes a la factura de venta son (Angulo, 2018):
 
     .row.mb-5.justify-content-center
-      .col-lg-3.pe-0
+      .col-lg-3.pe-lg-0
         figure
           img(src="@/assets/curso/tema1/17.png", data-aos="zoom-in")
-      .col-lg-7.ps-0
+      .col-lg-7.ps-lg-0
         .bg-color-23.h-100.p-4
           ol.lista-ol--cuadro
             li.bg-color-white.p-1
@@ -404,7 +404,7 @@
         .row.mb-5.justify-content-center
           .col-lg-10.bg-color-25.p-4.tarjeta
             .row.align-items-center
-              .col-lg-auto
+              .col-lg-auto.mb-3.mb-lg-0
                 img(src="@/assets/curso/tema1/24.png", style="max-width: 90px").mx-auto
               .col-lg.text-white
                 h5.mb-0 Recordemos que una factura al contado se registra
@@ -419,7 +419,7 @@
         
             .row.align-items-start.mb-3(data-aos="fade-left")
               .col-lg-auto
-                img(src="@/assets/componentes/2.svg", style="max-width: 90px").mx-auto
+                img.d-none.d-lg-flex(src="@/assets/componentes/2.svg", style="max-width: 90px").mx-auto
               .col-lg
                 p.mb-0 Otro ejemplo de documento equivalente son los expedidos por máquinas registradoras, las boletas de espectáculos públicos y todos los requisitos contemplados en el Articulo 771-2 del Estatuto Tributario (Secretaría del Senado, 2020).
             .bg-color-26.tarjeta.p-4(data-aos="fade-left")
@@ -613,10 +613,10 @@
         h5.mb-4 Características
         p Es un medio de confrontación de los pagos efectuados al gobierno nacional, distrital o municipal por concepto de tributos. Son ejemplos de soportes los pagos por concepto de las declaraciones de:
         .row
-          .col-lg-4
+          .col-lg-4.mb-3.mb-lg-0
             figure
               img(src="@/assets/curso/tema1/34.svg", data-aos="zoom-in")
-          .col-lg-8
+          .col-lg-8.mb-3.mb-lg-0
             ul.lista-ul--color.mb-5
               li.d-flex
                 i.fas.fa-chevron-right.bg-color-17
@@ -707,10 +707,10 @@
           h5.mb-4 Características
           p Posibilita la elaboración de la conciliación bancaria, bajo los métodos comúnmente utilizados. Los componentes de los extractos bancarios son:
           .row
-            .col-lg-5
+            .col-lg-5.mb-3.mb-lg-0
               figure
                 img(src="@/assets/curso/tema1/38.svg", data-aos="zoom-in")
-            .col-lg-7
+            .col-lg-7.mb-3.mb-lg-0
               ul.lista-ul--color.mb-5
                 li.d-flex
                   i.fas.fa-chevron-right.bg-color-17
@@ -744,14 +744,14 @@
         p El soporte debe contener el registro emitido por la máquina registradora del banco, el sello y la firma de la persona autorizada en el banco. El documento contiene los siguientes elementos:
        
         .row.justify-content-center.align-items-stretch.mb-3
-          .col-lg-6
+          .col-lg-6.mb-3.mb-lg-0
             .bg-color-6.p-1(data-aos="fade-left").h-100
               .row.align-items-center
                 .col-lg-auto
                   img(src="@/assets/curso/tema1/41.svg", style="max-width: 90px").mx-auto
                 .col-lg
                   h5.mb-2 Ciudad y fecha.
-          .col-lg-6
+          .col-lg-6.mb-3.mb-lg-0
             .bg-color-6.p-1(data-aos="fade-left").h-100
               .row.align-items-center
                 .col-lg-auto
@@ -759,14 +759,14 @@
                 .col-lg
                   h5.mb-2 Número de la cuenta bancaria.
         .row.justify-content-center.align-items-stretch.mb-5
-          .col-lg-6
+          .col-lg-6.mb-3.mb-lg-0
             .bg-color-6.p-1(data-aos="fade-left").h-100
               .row.align-items-center
                 .col-lg-auto
                   img(src="@/assets/curso/tema1/43.svg", style="max-width: 90px").mx-auto
                 .col-lg
                   h5.mb-2 Valor a consignar en números o letras.
-          .col-lg-6
+          .col-lg-6.mb-3.mb-lg-0
             .bg-color-6.p-1(data-aos="fade-left").h-100
               .row.align-items-center
                 .col-lg-auto
@@ -794,7 +794,7 @@
         h5.mb-4 Características
         p.mb-4 Es un fondo utilizado para cubrir gastos mínimos, requeridos en el desarrollo del objeto social de la empresa. Al diligenciar se debe observar:
         .row
-          .col-lg-4
+          .col-lg-4.mb-3.mb-lg-0
             figure
               img(src="@/assets/curso/tema1/45.svg", data-aos="zoom-in")
           .col-lg-8
@@ -825,7 +825,7 @@
     TabsC.color-acento-contenido.mb-5
       .py-3.py-md-4(titulo="Nota debito")
         .row
-          .col-md-6.mb-4.mb-md-0
+          .mb-4.mb-md-0
             h4 Nota debito
             p Es un documento contable que reconoce valores de la empresa a favor de sus clientes, debido a errores u omisiones. Por ejemplo: intereses cobrados de forma adicional sobre facturas de compra y venta o notas débito que disminuyen el saldo de la cuenta bancaria de la empresa.
             p Características
@@ -847,12 +847,12 @@
                 i.fas.fa-chevron-right.bg-color-17
                 p.mb-0 Firmas de personal responsable.
         
-          .col-md-6
+          .col-lg-6
             figure
               img(src='@/assets/curso/tema1/47.png', alt='Texto que describa la imagen')
       .py-3.py-md-4(titulo="Nota crédito")
         .row
-          .col-md-6.mb-4.mb-md-0
+          .mb-4.mb-md-0
             h4 Nota crédito
             p Soporte contable para reconocer disminuciones por concepto de descuentos no incluidos en las facturas, es utilizado cuando se presentan las devoluciones de mercancías, se elabora con original y copia, para ser conservado en contabilidad y la copia entregada al cliente.
             p Características
@@ -892,7 +892,7 @@
               .anexo__texto
                 p <b>Enlace web.</b>  Nota crédito
         
-          .col-md-6
+          .col-lg-6
             figure
               img(src='@/assets/curso/tema1/48.png', alt='Texto que describa la imagen')
     
@@ -1077,7 +1077,7 @@
 
         .row.align-items-start.mb-3(data-aos="fade-left")
           .col-lg-auto
-            img(src="@/assets/componentes/2.svg", style="max-width: 90px").mx-auto
+            img.d-none.d-lg-flex(src="@/assets/componentes/2.svg", style="max-width: 90px").mx-auto
           .col-lg
             p.mb-0 Si un título de esta clase es negociado, después de llenado, a favor de un tenedor de buena fe exenta de culpa, será válido y efectivo para dicho tenedor y este podrá hacerlo valer como si se hubiera llenado de acuerdo con las autorizaciones dadas.
         

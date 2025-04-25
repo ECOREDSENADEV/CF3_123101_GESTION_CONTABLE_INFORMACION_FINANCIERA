@@ -116,15 +116,15 @@
       h2 3.1 Conceptos, clasificación, formatos y comprobantes
     
     .row.mb-5
-      .col-lg-6.order-2
+      .col-lg-6.order-lg-2.mb-3.mb-lg-0
         figure
           img(src="@/assets/curso/tema3/4.png", data-aos="zoom-in")
-      .col-lg-6.order-1.mb-3.mb-lg-0
+      .col-lg-6.order-lg-1
         p(data-aos="fade-left") Los libros de contabilidad deben respetar los principios básicos de contabilidad. Ser diligenciados y presentados en el momento que las autoridades de inspección los soliciten, so pena de sanciones por no llevar libros de contabilidad. Una vez solicitados dichos libros de contabilidad por parte de la administración de impuestos y aduanas nacionales DIAN, después de cinco días sin realizar la entrega efectiva, se generará una sanción (Angulo, 2018).
     
         .row.align-items-start.mb-3(data-aos="fade-left")
           .col-lg-auto
-            img(src="@/assets/componentes/2.svg", style="max-width: 90px").mx-auto
+            img.d-none.d-lg-flex(src="@/assets/componentes/2.svg", style="max-width: 90px").mx-auto
           .col-lg
             p.mb-0 Está prohibido llevar doble contabilidad o presentar más de cuatro meses de retraso en el registro de información financiera (Angulo, 2018).
     
@@ -319,10 +319,10 @@
     p.mb-5(data-aos="fade-left") En este libro se registra la información básica de la empresa, se incluyen todas las decisiones en las actas, como acuerdos a los que llegan los dueños de una empresa. Se debe llevar un orden cronológico de las reuniones, en él se encuentran inscritos los dueños, administradores y representante legal, siempre debe estar firmado por secretario y presidente.
 
     .row.mb-5
-      .col-lg-6.order-2
+      .col-lg-6.order-lg-2.mb-3.mb-lg-0
         figure
           img(src="@/assets/curso/tema3/11.png", data-aos="zoom-in")
-      .col-lg-6.order-1.mb-3.mb-lg-0
+      .col-lg-6.order-lg-1
         .bg-color-3.p-5.tarjeta(data-aos="fade-left")
           h5 Según Ley 1755 de 2001 (Secretaría del Senado, 2020. Art. 47):
           p.mb-0 Las decisiones de la asamblea se harán constar en actas firmadas por el presidente y el secretario de la misma, en las cuales deberá indicarse si es ordinaria o extraordinaria. Además, la forma de la convocatoria, orden del día, nombre y calidad de los asistentes, su unidad privada y su respectivo coeficiente, y los votos emitidos en cada caso.
@@ -334,7 +334,7 @@
       .col-lg-7
         .row.align-items-start.mb-3(data-aos="fade-left")
           .col-lg-auto
-            img(src="@/assets/componentes/2.svg", style="max-width: 90px").mx-auto
+            img.d-none.d-lg-flex(src="@/assets/componentes/2.svg", style="max-width: 90px").mx-auto
           .col-lg
             p.mb-0 En los eventos en que la asamblea decida encargar personas para verificar la redacción del acta, las personas encargadas deberán hacerlo dentro del término que establezca el reglamento, y en su defecto, dentro de los veinte (20) días hábiles siguientes a la fecha de la respectiva reunión.
         p(data-aos="fade-left") Dentro de un lapso no superior a veinte (20) días hábiles contados a partir de la fecha de la reunión, el administrador debe poner a disposición de los propietarios del edificio o conjunto, copia completa del texto del acta en el lugar determinado como sede de la administración, e informar tal situación a cada uno de los propietarios. En el libro de actas se dejará constancia sobre la fecha y lugar de publicación.
@@ -449,21 +449,21 @@
     p.mb-5(data-aos="fade-left") El Estado colombiano busca, mediante la Resolución 8934 de febrero de 2014, implementar el sistema de gestión documental, con el objetivo de mantener organizados los archivos en el sector privado, enfocada básicamente en la organización de:
 
     .row.justify-content-center.align-items-stretch.mb-3
-      .col-lg-3
+      .col-lg-3.mb-3.mb-lg-0
         .bg-color-10.tarjeta.p-1(data-aos="fade-left").h-100
           .row.align-items-center
             .col-lg-auto
               img(src="@/assets/curso/tema3/17.svg", style="max-width: 90px").mx-auto
             .col-lg
               h5.mb-2 Tablas de retención documental
-      .col-lg-3
+      .col-lg-3.mb-3.mb-lg-0
         .bg-color-10.tarjeta.p-1(data-aos="fade-left").h-100
           .row.align-items-center
             .col-lg-auto
               img(src="@/assets/curso/tema3/18.svg", style="max-width: 90px").mx-auto
             .col-lg
               h5.mb-2 Programa de gestión documental
-      .col-lg-3
+      .col-lg-3.mb-3.mb-lg-0
         .bg-color-10.tarjeta.p-1(data-aos="fade-left").h-100
           .row.align-items-center
             .col-lg-auto
@@ -471,21 +471,21 @@
             .col-lg
               h5.mb-2 Cuadros de clasificación documental
     .row.justify-content-center.align-items-stretch.mb-3
-      .col-lg-3
+      .col-lg-3.mb-3.mb-lg-0
         .bg-color-10.tarjeta.p-1(data-aos="fade-left").h-100
           .row.align-items-center
             .col-lg-auto
               img(src="@/assets/curso/tema3/20.svg", style="max-width: 90px").mx-auto
             .col-lg
               h5.mb-2 Tablas de valoración documental
-      .col-lg-3
+      .col-lg-3.mb-3.mb-lg-0
         .bg-color-10.tarjeta.p-1(data-aos="fade-left").h-100
           .row.align-items-center
             .col-lg-auto
               img(src="@/assets/curso/tema3/21.svg", style="max-width: 90px").mx-auto
             .col-lg
               h5.mb-2 Reglamento interno de archivo
-      .col-lg-3
+      .col-lg-3.mb-3.mb-lg-0
         a.anexo.mb-4.bg-color-8(:href="obtenerLink('/downloads/Resolucion_8934_2014.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
