@@ -1214,7 +1214,7 @@
               p <b>Características</b> (Secretaría del Senado, 2020. Art.712):
               p El cheque sólo puede ser expedido en formularios impresos de cheques o chequeras y a cargo de un banco. El título que en forma de cheque se expida en contravención a este artículo no producirá efectos de título-valor.
 
-              .row.mb-5.justify-content-center
+              .row.justify-content-center
                 .col-lg-4.mb-3.mb-lg-0
                   figure
                     img(src="@/assets/curso/tema1/62.png", data-aos="zoom-in")
